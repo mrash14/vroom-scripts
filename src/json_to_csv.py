@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import json, sys
-from utils.file import load_json
-from utils.csv_stuff import write_to_csv
+from .utils.file import load_json
+from .utils.csv_stuff import write_to_csv
 
 # Parse a json-formatted input instance and produce a csv file with
 # all involved coordinates in Lat,Lng order.

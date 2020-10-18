@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import json, os, sys
-from utils.file import *
+from .utils.file import *
 
 # Produce global indicators from a set of solutions in a given folder.
 

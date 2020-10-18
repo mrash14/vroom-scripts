@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
-from utils.csv_stuff import write_to_csv
+from .csv_stuff import write_to_csv
 
 def format_json_from_locations(locations):
   # Set vehicles.

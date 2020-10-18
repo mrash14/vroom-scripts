@@ -3,7 +3,7 @@
 import argparse, sys
 import numpy.random as npr
 import json
-from utils.format_input import write_files
+from .utils.format_input import write_files
 
 # Generate a random problem to feed vroom for solving.
 

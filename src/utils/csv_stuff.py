@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
-from utils.file import load_json
+from .file import load_json
 
 def coord_to_csv(array):
   return str(array[1]) + ',' + str(array[0]) + '\n'

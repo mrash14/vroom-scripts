@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import json, sys
-from utils.benchmark import *
+from .utils.benchmark import *
 
 # Generate a json-formatted problem from a CVRPLIB file.
 

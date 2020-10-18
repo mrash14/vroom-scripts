@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import json, sys
-from utils.file import load_json
-from utils.osrm import table
+from .utils.file import load_json
+from .utils.osrm import table
 
 # Parse a json-formatted input instance, compute the matrix using
 # OSRM, then add the matrix and all relevant indices to the input
