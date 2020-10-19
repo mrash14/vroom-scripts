@@ -2,7 +2,7 @@
 
 ## CVRPLIB
 
-The `A`, `B`, `E`, `F`, `M`, `P` and `X` folders contain all instances
+The `A`, `B`, `E`, `F`, `M`, `P` , `X` and `XXL` folders contain all instances
 described in
 [CVRPLIB](http://vrp.atd-lab.inf.puc-rio.br/index.php/en/) using
 euclidean distance (`EDGE_WEIGHT_TYPE = EUC_2D`).
@@ -13,8 +13,8 @@ Assuming the `vroom` command is somewhere in your path, just run the
 provided scripts on the benchmark classes you want to use.
 
 ```
-./generate.sh A B E F M P X
-./run.sh A B E F M P X
+./generate.sh A B E F M P X XXL
+./run.sh A B E F M P X XXL
 ```
 
 Includes:
